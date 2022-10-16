@@ -9,5 +9,5 @@
 
 ### Tasks that still need to be worked out: 
 
-### Future concern about the project"
+### Future concern about the project:
   

@@ -1,0 +1,133 @@
+
+/*Meeting Minutes*/
+body {
+    background-color: rgb(218, 230, 173);
+  }
+  
+  h1,h2 {
+    color: rgb(0, 128, 90);
+    margin-left: 20ex;
+    width: 200px;
+    height: 100px;
+    max-width: 210px;
+    max-height: 110px;
+  }
+
+ 
+
+  h6 {
+    color: rgb(128, 0, 28);
+    
+   
+    margin-left: 3cm;
+    width: 100mm;
+    height: 5Q;
+
+  }
+
+  #date{
+    color:red;
+  }
+
+  p {
+    font-family:"Montserrat" ;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 80px;
+    border-color: rgb(135, 13, 160);
+    border-style: double;
+    border-width: 2mm;
+    border-radius: 1mm;
+  }
+
+  div {
+   
+    display: block;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+  }
+
+  li {
+    display: inline;
+    padding: 5px 3px 3px 8px;
+    list-style-type: disc;
+  }
+
+  button:hover {
+   background-color: aquamarine;
+  }
+
+  a:active {
+    color: brown;
+  }
+
+  .container {
+    position:fixed;
+   
+    display: flex;
+    
+   
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #6021f3;
+    padding: 30px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(19, 201, 89, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+ 
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(212, 238, 235);
+    }
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf")
+  }
+
+  * {
+    text-align: center;
+
+  }
+
+  a[href="#Date"]
+{
+   color: red;
+}
+
+  
+  li li {
+    list-style-type: circle;
+  }
+
+
+  p ~ span {
+  color: red;
+}
+
+li + li {
+    color: red;
+  }
+
+.name li{
+    color:green;
+}
